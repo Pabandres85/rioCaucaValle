@@ -29,7 +29,6 @@ notebooks/*_output.ipynb
 # Data temporal o generada
 # ────────────────
 data/cleaned/*.ipynb
-data/cleaned/*.csv
 data/temp/
 *.log
 *.tmp
