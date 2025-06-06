@@ -1,0 +1,62 @@
+# ────────────────
+# Python
+# ────────────────
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.pkl
+*.joblib
+*.h5
+
+# ────────────────
+# Entornos
+# ────────────────
+.env
+.venv/
+venv/
+env/
+*.env
+
+# ────────────────
+# Jupyter Notebooks (outputs)
+# ────────────────
+.ipynb_checkpoints/
+notebooks/*_output.ipynb
+
+# ────────────────
+# Data temporal o generada
+# ────────────────
+data/cleaned/*.ipynb
+data/cleaned/*.csv
+data/temp/
+*.log
+*.tmp
+
+# ────────────────
+# Streamlit cache (opcional)
+# ────────────────
+.streamlit/
+**/.streamlit/
+
+# ────────────────
+# Docker
+# ────────────────
+docker/
+*.tar
+*.img
+*.container
+
+# ────────────────
+# Archivos del sistema
+# ────────────────
+.DS_Store
+Thumbs.db
+
+# ────────────────
+# Otros
+# ────────────────
+.idea/
+*.ipynb~       # Notebooks temporales
+requirements-dev.txt
